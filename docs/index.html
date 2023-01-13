@@ -16,7 +16,30 @@
   </head>
 
   <body>
-    <main id="main" class="main"></main>
+    <header id="header" class="header">
+      <div class="pointer pointer--gamer">
+        <p class="pointer__text">YOU</p>
+        <p id="gamer-points" class="points">0</p>
+      </div>
+      <h1 class="title">ROCK PAPER SCISSORS</h1>
+      <div class="pointer pointer--pc">
+        <p class="pointer__text">YOU</p>
+        <p id="pc-points" class="points">0</p>
+      </div>
+    </header>
+    <main id="main" class="main">
+      <div id="game" class="game-container">
+        <div class="button button--paper">
+          <img id="paper" src="assets/images/icon-paper.svg" alt="Foto de mano">
+        </div>
+        <div class="button button--scissors">
+          <img id="scissors" src="assets/images/icon-scissors.svg" alt="Foto de mano">
+        </div>
+        <div class="button button--rock">
+          <img id="rock" src="assets/images/icon-rock.svg" alt="Foto de mano">
+        </div>
+      </div>
+    </main>
     <script src="js/scripts.js"></script>
   </body>
 </html>
