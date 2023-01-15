@@ -1,0 +1,27 @@
+.title{
+    width: 200px;
+    font-size: 2.5rem;
+    margin: 0;
+    line-height: 0.8;
+    &--small{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 100%;
+        font-size: 1.2rem;
+        &-footer{
+            margin: 1rem;
+        }
+        &-red{
+            color: var(--rock);
+        }
+    }
+}
+
+.result{
+    font-size: 2rem;
+    text-align: center;
+    &--small{
+        font-size: 1.2rem;
+    }
+}

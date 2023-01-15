@@ -1,5 +1,21 @@
 .game-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 400px;
+    width: 470px;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url(../assets/images/bg-triangle.svg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    &--advanced{
+        width: 530px;
+        height: 500px;
+        background-image: url(../assets/images/bg-pentagon.svg);
+    }
+}
+
+.game-container-unshow{
+    display: none;
 }

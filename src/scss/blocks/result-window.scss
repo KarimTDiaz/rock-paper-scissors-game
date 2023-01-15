@@ -1,0 +1,18 @@
+.result-window{
+display: none;
+&__top{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5em;
+}
+}
+
+.result-window--show{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}

@@ -16,7 +16,56 @@
   </head>
 
   <body>
-    <main id="main" class="main"></main>
+    <header id="header" class="header">
+      <div class="pointer pointer--gamer">
+        <p class="pointer__text">YOU</p>
+        <p id="user-points" class="points">0</p>
+      </div>
+      <h1 class="title">ROCK PAPER SCISSORS</h1>
+      <div class="pointer pointer--pc">
+        <p class="pointer__text">PC</p>
+        <p id="pc-points" class="points">0</p>
+      </div>
+    </header>
+    <main id="main" class="main">
+
+      <div id="game-container" class="game-container">
+        <button id="reset" class="button button--small button--small-reset">RESET</button>
+        <div class="button button--paper">
+          <img id="paper" src="assets/images/icon-paper.svg" alt="Foto de mano">
+        </div>
+        <div class="button button--scissors">
+          <img id="scissors" src="assets/images/icon-scissors.svg" alt="Foto de mano">
+        </div>
+        <div  class="button button--rock">
+          <img id="rock" src="assets/images/icon-rock.svg" alt="Foto de mano">
+        </div>
+      </div>
+
+      <div id="result-window" class="result-window">
+        <div class="result-window__top">
+        <div class="user-result">
+          <p id="user-play-text" class="result result--small"></p>
+          <div class="button">
+            <img id="userimg" src="" alt="">
+          </div>
+        </div>
+        <div class="play-again">
+          <p id="result-text" class="result"></p>
+          <button id="play-again" class="button button--small">PLAY AGAIN</button>
+        </div>
+        <div class="pc-resut">
+          <p id="pc-play-text" class="result result--small"></p>
+          <div class="button">
+            <img id="pcimg" src="" alt="">
+          </div>
+        </div>
+      </div>
+        <p class="title title--small title--small-footer">TOO EASY?</p>
+        <a class="title title--small title--small-red title--small-footer"" href="advanced.html">PLAY ADVANCED MODE</a>
+      </div>
+      
+    </main>
     <script src="js/scripts.js"></script>
   </body>
 </html>

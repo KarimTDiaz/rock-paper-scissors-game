@@ -15,8 +15,62 @@
     <title>Rock Paper Scissors</title>
   </head>
 
-  <body>
-    <main id="main" class="main"></main>
+  <body data-advanced="advanced-mode">
+    <header id="header" class="header">
+      <div class="pointer pointer--gamer">
+        <p class="pointer__text">YOU</p>
+        <p id="user-points" class="points">0</p>
+      </div>
+      <h1 class="title title--advanced">ROCK PAPER SCISSORS LIZARD SPOCK</h1>
+      <div class="pointer pointer--pc">
+        <p class="pointer__text">PC</p>
+        <p id="pc-points" class="points">0</p>
+      </div>
+    </header>
+    <main id="main" class="main">
+
+      <div id="game-container" class="game-container game-container--advanced">
+        <button id="reset" class="button button--small button--small-reset button--small-reset-advanced">RESET</button>
+        <div class="button button--paper button--paper-advanced">
+          <img id="paper" src="assets/images/icon-paper.svg" alt="Foto de mano">
+        </div>
+        <div class="button button--scissors button--scissors-advanced">
+          <img id="scissors" src="assets/images/icon-scissors.svg" alt="Foto de mano">
+        </div>
+        <div  class="button button--rock button--rock-advanced">
+          <img id="rock" src="assets/images/icon-rock.svg" alt="Foto de mano">
+        </div>
+        <div  class="button button--lizard">
+          <img id="lizard" src="assets/images/icon-lizard.svg" alt="Foto de mano">
+        </div>
+        <div  class="button button--spock">
+          <img id="spock" src="assets/images/icon-spock.svg" alt="Foto de mano">
+        </div>
+      </div>
+
+      <div id="result-window" class="result-window">
+        <div class="result-window__top">
+        <div class="user-result">
+          <p id="user-play-text" class="result result--small"></p>
+          <div class="button">
+            <img id="userimg" src="" alt="">
+          </div>
+        </div>
+        <div class="play-again">
+          <p id="result-text" class="result"></p>
+          <button id="play-again" class="button button--small">PLAY AGAIN</button>
+        </div>
+        <div class="pc-resut">
+          <p id="pc-play-text" class="result result--small"></p>
+          <div class="button">
+            <img id="pcimg" src="" alt="">
+          </div>
+        </div>
+      </div>
+        <p class="title title--small title--small-footer"">TOO DIFFICULT?</p>
+        <a class="title title--small title--small-red title--small-footer"" href="simple.html">PLAY SIMPLE MODE</a>
+      </div>
+    </main>
     <script src="js/scripts.js"></script>
   </body>
 </html>
